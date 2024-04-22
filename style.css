@@ -1,0 +1,36 @@
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+textarea {
+  width: 80%;
+  height: 150px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 5px solid black;
+  resize: vertical; 
+  font-size: 16px;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+  background-color: #0056b3;
+}
